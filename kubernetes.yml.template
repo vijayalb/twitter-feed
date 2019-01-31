@@ -21,7 +21,7 @@ spec:
         imagePullPolicy: Always
         ports:
         - name: twitter-feed
-          containerPort: ${PORT}
+          containerPort: 8080
           protocol: TCP
       imagePullSecrets:
         - name: wercker
